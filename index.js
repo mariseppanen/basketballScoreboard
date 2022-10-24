@@ -20,6 +20,7 @@ function plus2home() {
 function plus3home() {
     counthome = counthome + 3
     homepointsEl.textContent = counthome;
+    highlightleader()
 }
 
 function plus1guest() {
